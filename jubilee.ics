@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Invitation//V Krugu Druzey//RU
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:v-krugu-druzey-2026@invitation
+DTSTAMP:20261110T000000Z
+DTSTART:20261211T130000Z
+SUMMARY:«В кругу друзей» — 20-летний юбилей
+LOCATION:Загородный комплекс «Циолковский»\,
+  ресторан «Вкус огня»
+END:VEVENT
+END:VCALENDAR
