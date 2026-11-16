@@ -130,7 +130,14 @@
   .section-top.reveal-in>p{animation-delay:.18s}
 }
 @media(max-width:680px){
-  .hero-intro{padding:27px 0 59px}
+  .hero-intro{
+    align-self:stretch;
+    margin-block:0;
+    display:grid;
+    grid-template-rows:1fr auto;
+    padding:27px 0 calc(62px + env(safe-area-inset-bottom, 0px));
+  }
+  .hero-intro .jubilee{align-self:center}
   .hero-link{margin-top:22px}
   .winter-fx span:nth-child(n+19){display:none;animation:none}
 }
